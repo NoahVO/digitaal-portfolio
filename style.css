@@ -1,0 +1,96 @@
+body{
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    background-image: url("img/achtergrond.jpg");
+}
+ul.index {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    font-size: 14px;
+    border-style: solid;
+    border-color: black;
+    border: 2px;
+}
+
+li.index1 {
+    width: 25%;
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 41px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+.noah1 {
+    height: 200px;
+    padding-right: 10px;
+    padding-top: 10px;
+    float: left;
+}
+
+.vakken {
+    font-size: 18px;
+    text-align: center;
+}
+
+.vak {
+    list-style-type: none;
+}
+
+li.vakuitleg {
+
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    margin-top: 100px;
+    width: 100%;
+    background-color: rgba(0,0,0, 1);
+    margin: 0 auto;
+}
+
+main {
+    min-height: 400px;
+    width: 100%;
+    background-color: rgba(0,0,0, 0.5);
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+    padding: 10px;
+}
+
+.container {
+    margin: 0 auto;
+    margin-top: 50px;
+    width: 41%;
+    border: 1px solid black;
+}
+
+p, ul {
+    padding-left: 30px;
+    color: white;
+}
+
+p {
+    padding: 20px;
+}
+
+footer {
+    padding: 5px;
+    font-size: 13px;
+}
